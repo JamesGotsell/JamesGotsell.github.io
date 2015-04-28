@@ -16,13 +16,24 @@ p.small {
     font-size: 16px;
 }
 
+ul li {
+    text-align: center;
+    list-style: none;
+}
+
 a,
 a:hover,
 a:focus,
 a:active,
 a.active {
+    font-size: 23px;
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: white;/*#{{ site.color.primary }}*/ 
+    text-decoration:none;
+}
+
+.blog_post{
+    text-align: center;
 }
 
 h1,
@@ -82,7 +93,9 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: white; /*#{{ site.color.primary }};*/
+    background-image: url(http://74211.com/wallpaper/picture_big/Wallpaper-Desktop-Computer-Minimal-Design-on-Blue-Background.jpg);
+    background-size:cover;
 }
 
 header .container {
@@ -101,11 +114,13 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    color:black;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color:black;
 }
 
 @media(min-width:768px) {
@@ -193,7 +208,11 @@ section.success {
         padding-top: 75px;
     }
 }
-
+section#blog{
+    ul li a {
+        color:white;
+    }
+}
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -332,6 +351,7 @@ footer {
 footer h3 {
     margin-bottom: 30px;
 }
+
 
 footer .footer-above {
     padding-top: 50px;
