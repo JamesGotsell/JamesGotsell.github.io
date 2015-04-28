@@ -1,5 +1,5 @@
 ---
 layout: default
-title: WDI
+title: THIRD POST
 ---
-this is the third post
+test
