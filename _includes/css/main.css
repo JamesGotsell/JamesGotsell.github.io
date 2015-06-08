@@ -28,7 +28,7 @@ a:active,
 a.active {
     font-size: 23px;
     outline: 0;
-    color: white;/*#{{ site.color.primary }}*/ 
+    color: lightblue;/*#{{ site.color.primary }}*/ 
     text-decoration:none;
 }
 
@@ -46,6 +46,7 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+
 
 hr.star-light,
 hr.star-primary {
@@ -93,8 +94,9 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: white; /*#{{ site.color.primary }};*/
-    background-image: url(http://74211.com/wallpaper/picture_big/Wallpaper-Desktop-Computer-Minimal-Design-on-Blue-Background.jpg);
+    /*background: white;*/ /*#{{ site.color.primary }};*/
+    background: lightblue;
+    /*background-image: url(http://74211.com/wallpaper/picture_big/Wallpaper-Desktop-Computer-Minimal-Design-on-Blue-Background.jpg);*/
     background-size:cover;
 }
 
@@ -462,4 +464,17 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+/*custom css */
+
+.project , h1  {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+h1.my_project {
+    padding: 10px;
 }

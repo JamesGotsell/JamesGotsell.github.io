@@ -15,7 +15,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: James Gotsell
   location: Location
   social: Around the Web
   credits: Credits
@@ -24,14 +24,14 @@ footer:
 social:
   - title: twitter
     url: http://twitter.com/James_Gotsell
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: 
-  - title: bitbucket
-    url: 
+  # - title: facebook
+  #   url: 
+  # - title: stack-overflow
+  #   url: 
+  # - title: bitbucket
+  #   url: 
   - title: github
-    url: 
+    url: https://github.com/JamesGotsell
 
 # Postal address (add as many lines as necessary)
 address:

@@ -6,13 +6,19 @@
                 <div class="col-lg-12 text-center">
                     <h2>Portfolio</h2>
                     <hr class="star-primary">
-                    <h2>Coming Soon</h2>
                 </div>
 
             </div>
             <div class="row">
-
-                {% for post in site.posts %}
+            <div class="projects">
+                    <h1 class="my_project">My projects</h1>
+                <ul class="links_to_projects">
+                    <li><a href="http://fierce-coast-1841.herokuapp.com">TodoSports</a></li>
+                    <li><a href="desolate-scrubland-1261.herokuapp.com">DudeWheresmyCoffee</a></li>
+                    <li><a href="#">DJstudio</a></li>
+                <ul>
+            </div>
+             <!--    {% for post in site.posts %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
@@ -23,7 +29,7 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
                     </div>
-                {% endfor %}
+                {% endfor %} -->
             </div>
         </div>
     </section>
