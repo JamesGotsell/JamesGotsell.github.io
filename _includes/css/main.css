@@ -19,6 +19,11 @@ p.small {
 ul li {
     text-align: center;
     list-style: none;
+    font-size: 23px;
+    outline: 0;
+    color: lightblue;/*#{{ site.color.primary }}*/ 
+    text-decoration:none;
+    margin: 20px;
 }
 
 a,
